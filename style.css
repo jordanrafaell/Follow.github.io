@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 10px 20px 160px 0 rgba(44, 29, 241, 0.1);
+    background: rgb(79, 57, 158);
+    background: linear-gradient(to top right, #421cee 0%, #020100 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#421cee", endColorstr="#CA7C4E", GradientType=1);
+    color: rgb(253, 2, 2);
+    font-family: "Open sans", Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height: 299px;
+    width: 320px;
+    background: #ffffff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 0 rgba(41, 8, 230, 0.3);
+}
+
+.perfil {
+    float: left;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+}
+
+.perfil .image{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 38px auto 0 auto;
+}
+
+.perfil .image .circulo-1, .perfil .image .circulo-2{
+    position: absolute;
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+    top: -3px;
+    left: -3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7936f5  #7936f5  #7936f5 transparent;
+    border-radius: 50%;
+    transition: all 2.5s ease-in-out;
+}
+
+.perfil .image .circulo-2{
+    width: 82px;
+    height: 82px;
+    top: -6px;
+    left: -6px;
+    border-color: #7936f5 transparent #7936f5  #7936f5  ;
+}
+
+.perfil .image img{
+    display: block;
+    border-radius: 50%;
+    background: #550101;
+}
+
+.perfil .image:hover {
+    cursor: pointer;
+}
+
+.perfil .image:hover .circulo-1,
+.perfil .image:hover .circulo-2{
+    transform: rotate(360deg);
+}
+
+.perfil .image:hover .circulo-2 {
+    transform: rotate(-360deg);
+}
+
+.perfil .nome {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.perfil .trabalho{
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.perfil .acao{
+    margin-top: 33px;
+}
+
+.perfil .acao .btn {
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    background: none;
+    border: 1px solid rgb(17, 0, 255);   
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    color: #7207ec;
+    cursor: pointer;
+}
+
+.perfil .acao .btn:hover{
+    background: #040316;
+}
+
+.acao .btn:hover {
+    border: 3px solid;
+}
+
+.status{
+    float: left;
+}
+
+.status .box {
+    box-sizing: border-box;
+    width: 120px;
+    height: 99px;
+    background-color: #500eeb;
+    text-align: center;
+    padding-top: 28px;
+    transition: all 0.4s ease-in-out;
+}
+
+.status .box:hover {
+    background: #1d0142;
+    cursor: pointer;
+}
+
+.status .box:nth-child(2){
+    margin: 1px 0;
+}
+
+.status span{
+    display: block;
+}
+
+.status .value {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.status .parameter{
+    font-size: 11px;
+}
