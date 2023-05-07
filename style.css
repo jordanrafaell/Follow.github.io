@@ -1,4 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+
+body{
+    background-image: url(https://user-images.githubusercontent.com/61181764/236705290-4842c5f1-8c2f-451e-b23b-297c3625a335.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
 .frame {
     position: absolute;
     top: 50%;
@@ -8,7 +15,7 @@
     margin-top: -200px;
     margin-left: -200px;
     border-radius: 2px;
-    box-shadow: 10px 20px 160px 0 rgba(44, 29, 241, 0.1);
+    box-shadow: 10px 20px 160px 0 rgb(43, 29, 241);
     background: rgb(79, 57, 158);
     background: linear-gradient(to top right, #421cee 0%, #020100 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#421cee", endColorstr="#CA7C4E", GradientType=1);
